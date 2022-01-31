@@ -1,14 +1,15 @@
 ## Advanced Discord.js v13.6.0 Template | 2/1/2022
-Yes
+An advanced Discord.js Handler with PostgreSQL and Redis Setup.
+If you have no experience with Redis and complex Databases like Postgres, you are wrong here.
 
 ## Get started
 ```
-cd Template
+cd template-pgql
 npm install
-npm start
+npm run start
 ```
 Rename example.env to `.env`
-Fill in your tokens and mongodb cluster connection string.
+Fill in your tokens and your database connection strings.
 
 Commands:
 ```
@@ -17,11 +18,4 @@ Commands:
 /ping
 ```
 
-## Tech Stack
-* [Language](https://www.javascript.com/)
-* [Runtime](https://nodejs.org/en/)
-* [API](https://www.npmjs.com/package/discord.js?source=post_page-----7b5fe27cb6fa----------------------)
-* [Database](https://www.mongodb.com/) 
-
-## More
 
